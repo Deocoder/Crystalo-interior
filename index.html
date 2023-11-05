@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRYSTALO INTERIOR</title>
+    <link
+      rel="shortcut icon"
+      href="img/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link rel="stylesheet" href="fa/css/font-awesome.min.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <div id="preloader"></div>
+
+    <div class="navbar">
+      <div class="logo">
+        <a href="index.html"><img src="img/logo.png" alt="" /></a>
+      </div>
+      <nav>
+        <ul id="menuitems">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#cta">Contact</a></li>
+        </ul>
+      </nav>
+      <img
+        src="img/menu.png"
+        class="menu"
+        width="25px"
+        onclick="menutoggle()"
+      />
+    </div>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="img/slider/v2-1.jpg" style="width: 100%" />
+        <div class="text">
+          <h1>
+            Beautiful Living<br />
+            solution
+          </h1>
+        </div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="img/slider/v2-2.jpg" style="width: 100%" />
+        <div class="text">
+          <h1>
+            United design <br />
+            and technology
+          </h1>
+        </div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="img/slider/v2-3.jpg" style="width: 100%" />
+        <div class="text">
+          <h1>
+            Finest bespoke<br />
+            interiors
+          </h1>
+        </div>
+      </div>
+
+      <!-- Next and previous buttons -->
+      <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+      <br />
+      <!-- The dots/circles -->
+      <div style="text-align: center" class="dot-con">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </div>
+    <!--  -->
+    <section class="about">
+      <div class="row">
+        <div class="col-2 pad">
+          <h4>About company</h4>
+          <h1>
+            <strong
+              >RECOGNIZED <br />
+              INTERIOR & EXTERIOR
+            </strong>
+            <br />
+            DESIGNER IN USA
+          </h1>
+          <hr />
+          <br />
+          <p>
+            We denounce with righteous indignation and dislike men who are
+            beguiled and demoralized by the charms of pleasures that moment, so
+            blinded by desires, that they cannot foresee indignations some
+            dislike mens who are so beguiled demoralized.
+          </p>
+          <br />
+          <div class="text-row">
+            <div><img src="img/icon/signature.png" alt="" /></div>
+            <div>
+              <h1>KL. Carl Ambrose</h1>
+              <h4>Chairman & Founder</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-2"><img src="img/about-style2-image.jpg" alt="" /></div>
+      </div>
+    </section>
+
+    <section class="services1">
+      <div class="row">
+        <div class="col-4">
+          <img src="img/resources/working-v2-1.jpg" alt="" />
+          <div class="inner">
+            <div class="icon-holder"><i class="fa fa-home"></i></div>
+            <div class="text-holder">
+              <h2>Residential Design</h2>
+              <div class="count"><h1>01</h1></div>
+            </div>
+          </div>
+          <div class="overlay">
+            <div class="text2">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore
+              optio illum dolorum saepe quibusdam, sit sint, impedit ex,
+              temporibus molestiae odit eum.
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <img src="img/resources/working-v2-2.jpg" alt="" />
+          <div class="inner">
+            <div class="icon-holder"><i class="fa fa-bank"></i></div>
+            <div class="text-holder">
+              <h2>Commercial Design</h2>
+              <div class="count"><h1>02</h1></div>
+            </div>
+          </div>
+          <div class="overlay">
+            <div class="text2">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore
+              optio illum dolorum saepe quibusdam, sit sint, impedit ex,
+              temporibus molestiae odit eum.
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <img src="img/resources/working-v2-3.jpg" alt="" />
+          <div class="inner">
+            <div class="icon-holder"><i class="fa fa-hospital-o"></i></div>
+            <div class="text-holder">
+              <h2>Hospitality Design</h2>
+              <div class="count"><h1>03</h1></div>
+            </div>
+          </div>
+          <div class="overlay">
+            <div class="text2">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore
+              optio illum dolorum saepe quibusdam, sit sint, impedit ex,
+              temporibus molestiae odit eum.
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <img src="img/resources/working-v2-4.jpg" alt="" />
+          <div class="inner">
+            <div class="icon-holder"><i class="fa fa-industry"></i></div>
+            <div class="text-holder">
+              <h2>Industrial Design</h2>
+              <div class="count"><h1>04</h1></div>
+            </div>
+          </div>
+          <div class="overlay">
+            <div class="text2">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore
+              optio illum dolorum saepe quibusdam, sit sint, impedit ex,
+              temporibus molestiae odit eum.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  -->
+
+    <section class="what pad">
+      <div class="what-text">
+        <h4>What we do</h4>
+        <h1><strong>SOME SPECIAL</strong> SERVICES</h1>
+        <p>
+          We are an Interior Designer, Who believe in excellence, quality and
+          honesty, <br />
+          yes we design beautiful home interiors.
+        </p>
+      </div>
+      <div class="row">
+        <div class="card-con">
+          <div class="img-holder">
+            <img src="img/resources/1.jpg" alt="" srcset="" />
+          </div>
+
+          <div class="card-text">
+            <div class="row2">
+              <div>
+                <i class="fa fa-lightbulb-o"></i><br />
+                <h3>Lighting</h3>
+              </div>
+              <div><h1>01</h1></div>
+            </div>
+          </div>
+        </div>
+        <div class="card-con">
+          <div class="img-holder">
+            <img src="img/resources/2.jpg" alt="" srcset="" />
+          </div>
+
+          <div class="card-text">
+            <div class="row2">
+              <div>
+                <i class="fa fa-paint-brush"></i><br />
+                <h3>Painting</h3>
+              </div>
+              <div><h1>02</h1></div>
+            </div>
+          </div>
+        </div>
+        <div class="card-con">
+          <div class="img-holder">
+            <img src="img/resources/3.jpg" alt="" srcset="" />
+          </div>
+
+          <div class="card-text">
+            <div class="row2">
+              <div>
+                <i class="fa fa-gratipay"></i><br />
+                <h3>Pattern</h3>
+              </div>
+              <div><h1>03</h1></div>
+            </div>
+          </div>
+        </div>
+        <div class="card-con">
+          <div class="img-holder">
+            <img src="img/resources/4.jpg" alt="" srcset="" />
+          </div>
+
+          <div class="card-text">
+            <div class="row2">
+              <div>
+                <i class="fa fa-lightbulb-o"></i><br />
+                <h3>Texture</h3>
+              </div>
+              <div><h1>04</h1></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br />
+    <br />
+    <section class="impression">
+      <div class="icon-holder"><i class="fa fa-gear fa-3x fa-spin"></i></div>
+      <h1>
+        <strong> CREATING LASTING IMPRESSIONS THROUGH</strong> <br />
+        INTERIOR DESIGN
+      </h1>
+      <a class="btn"><i class="fa fa-headphones"></i> +34 123 45 98</a>
+    </section>
+
+    <section class="">
+      <div class="why-choose pad">
+        <div class="first-con">
+          <div class="">
+            <img src="img/icon/home-1.png" alt="" />
+          </div>
+          <h1><strong>WHY PEOPLE CHOOSE </strong> CRYSTALO</h1>
+          <ul>
+            <li>Well Considered Design</li>
+            <li>We Create For You</li>
+            <li>Leave The Details To Us</li>
+          </ul>
+
+          <br />
+          <br />
+          <a href="" class="btn2">Make an appointment</a>
+        </div>
+        <br />
+        <br />
+        <div class="second-con">
+          <div class="box box1">
+            <div class="img-holder">
+              <img src="img/resources/choose us (1).png" alt="" />
+            </div>
+            <h2>Experienced Team</h2>
+            <p>
+              Righteous indignations working <br />
+              beguileds all demoralized that blinded our works.
+            </p>
+          </div>
+          <div class="box box2">
+            <div class="img-holder">
+              <img src="img/resources/choose us (2).png" alt="" />
+            </div>
+            <h2>Guaranteed Works</h2>
+            <p>
+              Righteous indignations working <br />
+              beguileds all demoralized that blinded our works.
+            </p>
+          </div>
+        </div>
+        <div class="second-con">
+          <div class="box box3">
+            <div class="img-holder">
+              <img src="img/resources/choose us (3).png" alt="" />
+            </div>
+            <h2>Free Consultation</h2>
+            <p>
+              Righteous indignations working <br />beguileds all demoralized
+              that blinded our works.
+            </p>
+          </div>
+          <div class="box box4">
+            <div class="img-holder">
+              <img src="img/resources/choose us (4).png" alt="" />
+            </div>
+            <h2>Reasonable price</h2>
+            <p>
+              Righteous indignations working <br />beguileds all demoralized
+              that blinded our works.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  -->
+    <div class="pad project-con">
+      <div class="project-text">
+        <h4>PROJECTS</h4>
+        <h1>RECENTLY COMPLETED WORKS</h1>
+      </div>
+       <!-- <div class="card swiper-slide">
+            <div class="inner-card">
+              <img src="img/projects/v1-1.jpg" alt="" />
+              <div class="text3">
+                <h4>Modern Design</h4>
+                <h2>Art family residence</h2>
+              </div>
+            </div>
+            <div class="overlay"></div>
+          </div> -->
+     <div class="wrapper">
+      <i id="left" class="fa fa-angle-left" style="color: #fff;"></i>
+      <div class="carousel">
+        <img src="img/projects/v1-1.jpg" alt="" draggable="false">
+        <img src="img/projects/v1-2.jpg" alt="" draggable="false">
+        <img src="img/projects/v1-3.jpg" alt="" draggable="false">
+        <img src="img/projects/v1-4.jpg" alt="" draggable="false">
+        <img src="img/projects/v1-5.jpg" alt="" draggable="false">
+        <img src="img/projects/v1-6.jpg" alt="" draggable="false">
+        <img src="img/projects/v1-7.jpg" alt="" draggable="false">
+        <img src="img/projects/v1-8.jpg" alt="" draggable="false">
+        <img src="img/projects/v1-9.jpg" alt="" draggable="false">
+      </div>
+      <i id="right" class="fa fa-angle-right"style="color: #fff"></i>
+     </div>
+      <br />
+      <br />
+      <br />
+      <br />
+    </div>
+    <section class="working-process">
+      <div class="process-text">
+        <h4>TO DO GOOD DESIGN</h4>
+        <h1>OUR WORKING PROCESS</h1>
+      </div>
+      <br /><br />
+      <div class="row">
+        <div class="col-3">
+          <div class="top-fix">
+            <img src="img/resources/working-process-item-bg.png" alt="" />
+            <div class="count">
+              <h1>01</h1>
+            </div>
+            <div class="icon">
+              <i class="fa fa-mixcloud" style="color: black"></i>
+            </div>
+          </div>
+          <div class="col-3-text">
+            <h2>Idea & Design</h2>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+              assumenda .
+            </p>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="top-fix">
+            <img src="img/resources/working-process-item-bg.png" alt="" />
+            <div class="count">
+              <h1>02</h1>
+            </div>
+            <div class="icon">
+              <i class="fa fa-list-ul" style="color: black"></i>
+            </div>
+          </div>
+          <div class="col-3-text">
+            <h2>Specification</h2>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+              assumenda .
+            </p>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="top-fix">
+            <img src="img/resources/working-process-item-bg.png" alt="" />
+            <div class="count">
+              <h1>03</h1>
+            </div>
+            <div class="icon">
+              <i class="fa fa-train" style="color: black"></i>
+            </div>
+          </div>
+          <div class="col-3-text">
+            <h2>Execution</h2>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+              assumenda .
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <scetion class="tesitimonial">
+      <h4>TESITIMONIALS</h4>
+      <h1>OUR CUSTOMERS WORDS</h1> <br><br><br>
+      <div class="review-con">
+        <div class="progress-bar"></div>
+        <br /><br />
+        <div class="fa fa-quote-right fa-quote"></div>
+        <div class="fa fa-quote-left fa-quote"></div>
+        <p class="review">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis
+          eos excepturi atque repellat a ea delectus nostrum et saepe.
+          Laudantium, nobis sit. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Repellat deserunt alias incidunt blanditiis velit
+          iure, illum beatae eius magnam nesciunt qui praesentium itaque
+          assumenda similique consectetur. Temporibus porro provident enim.
+        </p>
+        <div class="user">
+          <img src="img/testi-3.png" alt="" class="user-img" />
+
+          <div class="user-details">
+            <h4 class="username">John</h4>
+            <h5 class="role">Marketing</h5>
+          </div>
+        </div>
+      </div>
+    </scetion>
+
+    <section class="form-container">
+      <h1>Request for
+Approximate Estimation</h1> <br>
+      <div class="row row-sub">
+        <div class="col-2">
+          <div class="form-text">
+          <i class="fa fa-map-signs"></i>
+          <h3>Vist Our Office</h3>
+          <p style="color: #000; font-size: 15px;">Flat A, 20/7, Reynolds Neck Str, North Helenaville</p></div>
+        </div>
+        <div class="col-2">
+          <form
+                action=""
+                method="POST"
+              >
+                <div class="contact">
+                  <input
+                    type="text"
+                    placeholder="name"
+                    required=""
+                    name="name"
+                  />
+
+                  <!-- <input
+                    placeholder="phone no"
+                    inputmode="numeric"
+                    name="number"
+                  /> -->
+
+                  <div class="custom-select" style="width: 48%;">
+                  <select>
+                    <option value="0">Select Service:</option>
+                    <option value="1">Concept Design</option>
+                    <option value="2">Project Design</option>
+                    <option value="3">Make Overs</option>
+                    <option value="4">Consulting</option>
+                    <option value="5">Glass & Wrought</option>
+                    <option value="6">Space Planning</option>
+                  </select>
+                  </div>
+                </div>
+
+                <input
+                  type="email"
+                  placeholder="email address"
+                  required=""
+                  name="mail"
+                />
+   
+                <textarea
+                  name="texares"
+                  placeholder="message"
+                  id=""
+                  cols="30"
+                  rows="10"
+                ></textarea>
+                <button type="submit"><h3>Submit</h3>  <i class="fa fa-send" style="margin-left: 10px;"></i></button>
+              </form>
+            </div></div>
+      </div>
+    </section>
+    <div class="footer">
+      <div class="row">
+        <div class="footer-col-1">
+          <h3>About Us</h3>
+          <p>
+            We denounce with righteous indignation and dislike men who are beguiled and demoralized by the charms of pleasures that moment, so blinded by desires, that they cannot foresee indignations some dislike mens who are so beguiled demoralized.
+          </p>
+        </div>
+        <div class="row">
+          <div class="footer-col-2">
+            <img src="img/footer-logo.png" alt="" />
+            <p>We are an Interior Designer, Who believe in excellence, quality and honesty, yes we design beautiful home interiors.</p>
+          </div>
+        </div>
+        <div class="footer-col-3">
+          <h3>Explore</h3>
+          <ul>
+            <li><a href="#about"> About</a></li>
+            <li><a href="#service"> Services</a></li>
+            <li><a href="#project"> Projects</a></li>
+            <li><a href="#contact"> Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col-4">
+          <h3>Follow Us</h3>
+          <ul>
+             <li>
+              <a
+                href=""
+                target="_blank"
+              >
+                Twitter</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                target="_blank"
+              >
+                Facebook</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                target="_blank"
+              >
+                Instagram
+              </a>
+            </li>
+            <li>
+              <a
+                href=""
+                target="_blank"
+              >
+                Youtube</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <hr />
+      <p class="copyright">Copyright All Right Rerserved | CRYSTALO 2023</p>
+    </div>
+  </body>
+</html>

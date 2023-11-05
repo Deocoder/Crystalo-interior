@@ -1,0 +1,169 @@
+@media screen and (min-width: 884px) and (max-width: 900px) {
+  .card-con {
+    margin-bottom: 15px;
+  }
+
+  .row {
+    flex-wrap: wrap;
+  }
+
+  .text2 {
+    text-align: center;
+    top: 70%;
+    font-size: 13px;
+  }
+
+  .carousel img {
+    width: calc(100% / 2);
+  }
+
+  .services-container{
+    padding: 0 15px;
+  }
+
+  .sidebar{
+    width: 250px;
+  }
+
+  .content{
+    margin-left: 250px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .carousel img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav ul {
+    position: absolute;
+    top: 80px;
+    padding: 15px;
+    z-index: 5;
+    left: 0;
+    background: #fff;
+    width: 100%;
+    transition: all 2s;
+    overflow: hidden;
+  }
+
+  nav ul li {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+  }
+
+  nav ul li a {
+    text-align: left;
+    color: #000;
+    padding: 5px;
+  }
+
+  .menu {
+    display: block;
+    margin-right: 10px;
+  }
+
+  .text h1 {
+    font-size: 21px;
+  }
+
+  .dot-con {
+    padding-bottom: 50px;
+  }
+
+  .mySlides {
+    height: 400px;
+    width: 100%;
+  }
+
+  .dot-con {
+    transform: translate(38%, -55px);
+  }
+  .row {
+    padding-left: 10px;
+    padding-right: 10px;
+    flex-direction: column;
+  }
+
+  .row-sub {
+    flex-direction: column-reverse;
+  }
+
+  .col-4 {
+    margin-top: 0;
+    width: 100%;
+  }
+
+  .card-con {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .card-con .img-holder {
+    width: 100%;
+  }
+
+  .card-con .img-holder img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .impression h1 {
+    font-size: 23px;
+    line-height: 30px;
+  }
+
+  .col-3 {
+    margin-left: 0px;
+  }
+
+  .why-choose {
+    flex-direction: column;
+  }
+
+  .fa-quote {
+    opacity: 0;
+  }
+
+  .review-con {
+    padding: 20px 30px;
+    margin: 0 10px;
+  }
+
+  .progress-bar {
+    margin-bottom: -10px;
+  }
+
+  .caruosel img {
+    width: 100%;
+  }
+
+  .footer-col-2 {
+    align-items: flex-start;
+  }
+
+  .footer-col-3,
+  .footer-col-4 {
+    text-align: left;
+  }
+  .services-container {
+    padding: 0;
+  }
+  .content {
+    margin-left: 0;
+  }
+  .sidebar{
+    width: 100%;
+  }
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+
